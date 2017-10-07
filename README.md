@@ -23,19 +23,7 @@ In this lab, we will introduce how to program with [Pepper](https://www.ald.soft
 
 ### What is NAOqi?
 
-According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. No Behaviors can run if NAOqi is not running.
-
-It runs on the robot, under NAOqi OS distribution.
-It can also run on your computer in order to test your code on a Simulated robots.
-
-[Pepper](https://en.wikipedia.org/wiki/Pepper_(robot)) is a humanoid robot by Aldebaran Robotics and SoftBank designed with the ability to read emotions. The [official website](http://doc.aldebaran.com/2-4/family/pepper_technical/index_pep.html) provides a technical overview of Pepper and you can find out its structure as well as the other technical details from the instruction. You can also refer to an
-<img src="./images/PEPPERbrochure_EN.pdf" alt="official brochure"  width="100%"> to obtain more general information. During the experiment, you can interact with Pepper through [contact and tactile sensors](http://doc.aldebaran.com/2-4/family/pepper_technical/contact-sensors_pep.html).
-
-![](images/imagePepperSpec_EN.jpg)
-
-### What is Choregraphe?
-
-[Choregraphe](https://developer.softbankrobotics.com/us-en/downloads/pepper) is a multi-platform development application with graphical user interface. It allows you to create animations and behaviors on Pepper, test them on a simulated robot or directly on a real one, monitor and control Pepper, etc.
+According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. Without NAOqi, the robot cannot perform any behaviors. NAOqi can run on the robot under NAOqi OS distribution, and can also run on your computer in order to test the code on a simulated robots.
 
 ## Configuration
 
