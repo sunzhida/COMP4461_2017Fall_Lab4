@@ -1,5 +1,5 @@
 # Robot Programming
-> Lab materials for how to program with Pepper by python.<br>
+> Lab materials for how to program with Pepper by Python.<br>
 > Venue: Room 4221, Teaching Lab 1, Academic Building.<br>
 > Date: Nov. 10, 2017
 
@@ -8,7 +8,7 @@
 [![License][license-image]][license-url]
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-In this lab, we will introduce how to program with [Pepper](https://www.ald.softbankrobotics.com/en/robots/pepper) robot by python.
+In this lab, we will introduce how to program with [Pepper](https://www.ald.softbankrobotics.com/en/robots/pepper) robot by Python.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ In this lab, we will introduce how to program with [Pepper](https://www.ald.soft
 
 ## Overview
 
-### What is Pepper?
+### What is NAOqi?
 
 [Pepper](https://en.wikipedia.org/wiki/Pepper_(robot)) is a humanoid robot by Aldebaran Robotics and SoftBank designed with the ability to read emotions. The [official website](http://doc.aldebaran.com/2-4/family/pepper_technical/index_pep.html) provides a technical overview of Pepper and you can find out its structure as well as the other technical details from the instruction. You can also refer to an
 <img src="./images/PEPPERbrochure_EN.pdf" alt="official brochure"  width="100%"> to obtain more general information. During the experiment, you can interact with Pepper through [contact and tactile sensors](http://doc.aldebaran.com/2-4/family/pepper_technical/contact-sensors_pep.html).
@@ -139,7 +139,7 @@ We would love you for the contribution to **Lab2**, check the ``LICENSE`` file f
 [chor-url]: https://developer.softbankrobotics.com/us-en/downloads/pepper
 [py-image]:https://img.shields.io/badge/Python-2.7-008C96.svg?style=flat
 [py-url]: https://www.python.org/downloads/
-[qi-image]:https://img.shields.io/badge/SDK-2.4.3-008C96.svg?style=flat
+[qi-image]:https://img.shields.io/badge/NAOqi-2.4.3-008C96.svg?style=flat
 [qi-url]: https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb/robot/pepper-3
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: ./LICENSE.md
