@@ -1,24 +1,20 @@
 # Robot Programming
-> Lab materials for how to program with Pepper by Choregraphe.<br>
+> Lab materials for how to program with Pepper by python.<br>
 > Venue: Room 4221, Teaching Lab 1, Academic Building.<br>
-> Date: Nov. 3 & 10, 2017
+> Date: Nov. 10, 2017
 
-[![Choregraphe][chor-image]][chor-url]
 [![Python][py-image]][py-url]
 [![naoqi][qi-image]][qi-url]
 [![License][license-image]][license-url]
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-<!-- [![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2) -->
-<!-- [![Build Status][travis-image]][travis-url] -->
+In this lab, we will introduce how to program with [Pepper](https://www.ald.softbankrobotics.com/en/robots/pepper) robot by python.
 
-In this lab, we will introduce how to program with [Pepper](https://www.ald.softbankrobotics.com/en/robots/pepper) robot by Choregraphe. This lab will be divided into two sessions. For the first session, we will show how to program with Choregraphe. We are going to teach programming with python in the second session. In this repository, there is a demo created by Choregraphe for you to get started.
-
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Configuration](#configuration)
-- [Development](#development)
+- [Implementation](#implementation)
 - [Tips](#tips)
 - [Contribute](#contribute)
 - [Meta](#meta)
@@ -49,7 +45,7 @@ Note that your application and the bridge should be in the same local network.
 ### How to get the bridge details?
 You can acquire the detail information about the bridge through [this](https://account.meethue.com/login), like the Internal IP Address, Gateway, etc. You need this information to debug with the lights when you develop your applications.
 
-## Development
+## Implementation
 
 ### Mobile demo
 [Philips Hue](https://itunes.apple.com/us/app/philips-hue/id1055281310?mt=8) (by Philips Lighting BV) is a mobile application that lets you easily control your lights from any device and create the right ambience for every moment.
