@@ -23,6 +23,11 @@ In this lab, we will introduce how to program with [Pepper](https://www.ald.soft
 
 ### What is NAOqi?
 
+According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. No Behaviors can run if NAOqi is not running.
+
+It runs on the robot, under NAOqi OS distribution.
+It can also run on your computer in order to test your code on a Simulated robots.
+
 [Pepper](https://en.wikipedia.org/wiki/Pepper_(robot)) is a humanoid robot by Aldebaran Robotics and SoftBank designed with the ability to read emotions. The [official website](http://doc.aldebaran.com/2-4/family/pepper_technical/index_pep.html) provides a technical overview of Pepper and you can find out its structure as well as the other technical details from the instruction. You can also refer to an
 <img src="./images/PEPPERbrochure_EN.pdf" alt="official brochure"  width="100%"> to obtain more general information. During the experiment, you can interact with Pepper through [contact and tactile sensors](http://doc.aldebaran.com/2-4/family/pepper_technical/contact-sensors_pep.html).
 
