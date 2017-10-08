@@ -40,11 +40,30 @@ Please find the __Pepper SDKs and documentation 2.5.5__ and download the corresp
 
 #### MAC & Linux
 
-For Linux, please download Python 2.7 SDK 2.5.5 Linux 64; and for Mac, please download Python 2.7 SDK 2.5.5 Mac 64.
+For Linux, please download [Python 2.7 SDK 2.5.5 Linux 64](https://community.ald.softbankrobotics.com/en/resources/software/pepper-sdks-and-documentation-255); and for Mac, please download [Python 2.7 SDK 2.5.5 Mac 64](https://community.ald.softbankrobotics.com/en/resources/software/pepper-sdks-and-documentation-255).
+
+In Linux, please go to the folder where you download the file (e.g., ``~/Downloads``) and unzip the ``.tar.gz`` file by
+
+```
+tar -xvzf pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
+```
+
+Move the folder to your local library by the following command (if you get “Permission denied”, please add “sudo” at the beginning of this line of command).
+mv -i ./pynaoqi-python2.7-2.5.5.5-linux64 /usr/local/lib/pynaoqi
+By doing this, we rename the unzipped folder as “pynaoqi” and move it in our local environment. Next, go to /usr/local/lib/pynaoqi, then follow the instruction here http://doc.aldebaran.com/2-5/dev/python/install_guide.html
+to set up your local environment. Now your ‘/path/to/python-sdk/lib/python2.7/site-packages’ should be ‘/usr/local/lib/pynaoqi/lib/python2.7/site-packages’
+Then type
+export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/pynaoqi/lib/python2.7/site-packages
+You will find the path is invalid after you finish the current session or close the dialog window.
+Please add the last command at the end of your .bashrc file. In this way, you can have the working environment after restarting the terminal.
+
+If you are using MAC, you need to do the same as for the Ubuntu users. Besides, please add the following additional line after the last ‘PYTHONPATH’ setting command:
+export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}::/usr/local/lib/pynaoqi/lib
 
 
 #### Windows
 
+For Windows, please download [Python 2.7 SDK 2.5.5 Win 32 Binaries](https://community.ald.softbankrobotics.com/en/resources/software/pepper-sdks-and-documentation-255).
 
 First, we need to prepare all the components as mentioned above. Make sure that:
 * The application connects the local network created by the Wi-Fi router.
