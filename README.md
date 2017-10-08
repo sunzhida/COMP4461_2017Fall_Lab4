@@ -29,7 +29,7 @@ According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi
 
 ### How to install Python?
 
-#### MAC & Linux
+#### Linux & MAC
 
 #### Windows
 
@@ -38,7 +38,7 @@ According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi
 You need a SoftBank Robotics account to get all the installer that you need. Create your account [here](https://sso.aldebaran-robotics.com/pf/adapter2adapter.ping?TargetResource=https://cloud.aldebaran-robotics.com/). After you create the account, sign in and go to this [page](https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb).
 Please find the __Pepper SDKs and documentation 2.5.5__ and download the corresponding SDK based on your operating system.
 
-#### MAC & Linux
+#### Linux & MAC
 
 For Linux, please download [Python 2.7 SDK 2.5.5 Linux 64](https://community.ald.softbankrobotics.com/en/resources/software/pepper-sdks-and-documentation-255); and for Mac, please download [Python 2.7 SDK 2.5.5 Mac 64](https://community.ald.softbankrobotics.com/en/resources/software/pepper-sdks-and-documentation-255).
 
@@ -48,18 +48,29 @@ In Linux, please go to the folder where you download the file (e.g., ``~/Downloa
 tar -xvzf pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
 ```
 
-Move the folder to your local library by the following command (if you get “Permission denied”, please add “sudo” at the beginning of this line of command).
+Then move the folder to your local library by the following command (if you get `Permission denied`, please add `sudo` at the beginning of this line of command).
+
+```bash
 mv -i ./pynaoqi-python2.7-2.5.5.5-linux64 /usr/local/lib/pynaoqi
-By doing this, we rename the unzipped folder as “pynaoqi” and move it in our local environment. Next, go to /usr/local/lib/pynaoqi, then follow the instruction here http://doc.aldebaran.com/2-5/dev/python/install_guide.html
-to set up your local environment. Now your ‘/path/to/python-sdk/lib/python2.7/site-packages’ should be ‘/usr/local/lib/pynaoqi/lib/python2.7/site-packages’
+```
+
+By doing this, we rename the unzipped folder as `pynaoqi` and move it in our local environment. Next, go to ``/usr/local/lib/pynaoqi``, then follow the instruction [here](http://doc.aldebaran.com/2-5/dev/python/install_guide.html)
+to set up your local environment. Now your ``/path/to/python-sdk/lib/python2.7/site-packages`` should be ``/usr/local/lib/pynaoqi/lib/python2.7/site-packages``
 Then type
+
+```bash
 export PYTHONPATH=${PYTHONPATH}:/usr/local/lib/pynaoqi/lib/python2.7/site-packages
-You will find the path is invalid after you finish the current session or close the dialog window.
-Please add the last command at the end of your .bashrc file. In this way, you can have the working environment after restarting the terminal.
+```
 
-If you are using MAC, you need to do the same as for the Ubuntu users. Besides, please add the following additional line after the last ‘PYTHONPATH’ setting command:
+, after that you can start to code in this environment.
+
+However, you will find the path is invalid after you finish the current session or close the dialog window. Please add the last command at the end of your ``.bashrc`` file. In this way, you can get the working environment after restarting the terminal.
+
+If you are using MAC, you need to do the same as for the Ubuntu users. Besides, please add the following additional line after the last `PYTHONPATH` setting command:
+
+```bash
 export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}::/usr/local/lib/pynaoqi/lib
-
+```
 
 #### Windows
 
