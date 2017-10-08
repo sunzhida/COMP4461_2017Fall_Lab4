@@ -44,7 +44,7 @@ For Linux, please download [Python 2.7 SDK 2.5.5 Linux 64](https://community.ald
 
 In Linux, please go to the folder where you download the file (e.g., ``~/Downloads``) and unzip the ``.tar.gz`` file by
 
-```
+```bash
 tar -xvzf pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
 ```
 
