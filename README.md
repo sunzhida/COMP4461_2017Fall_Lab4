@@ -27,15 +27,21 @@ According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi
 
 ## Configuration
 
-### How to install Python 2.7.14?
+### How to install Python?
 
 #### MAC & Linux
 
 #### Windows
 
-### How to install NAOqi 2.4.3?
+### How to install NAOqi SDK?
+
+You need a SoftBank Robotics account to get all the installer that you need. Create your account [here](https://sso.aldebaran-robotics.com/pf/adapter2adapter.ping?TargetResource=https://cloud.aldebaran-robotics.com/). After you create the account, sign in and go to this [page](https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb).
+Please find the __Pepper SDKs and documentation 2.5.5__ and download the corresponding SDK based on your operating system.
 
 #### MAC & Linux
+
+For Linux, please download Python 2.7 SDK 2.5.5 Linux 64; and for Mac, please download Python 2.7 SDK 2.5.5 Mac 64.
+
 
 #### Windows
 
