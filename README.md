@@ -27,7 +27,19 @@ According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi
 
 ## Configuration
 
-### How to install Choregraphe 2.5.5?
+### How to install Python 2.7.14?
+
+#### MAC & Linux
+
+#### Windows
+
+### How to install NAOqi 2.4.3?
+
+#### MAC & Linux
+
+#### Windows
+
+
 First, we need to prepare all the components as mentioned above. Make sure that:
 * The application connects the local network created by the Wi-Fi router.
 * The Wi-Fi router connects the Internet.
@@ -35,16 +47,8 @@ First, we need to prepare all the components as mentioned above. Make sure that:
 
 Note that your application and the bridge should be in the same local network.
 
-### How to get the bridge details?
-You can acquire the detail information about the bridge through [this](https://account.meethue.com/login), like the Internal IP Address, Gateway, etc. You need this information to debug with the lights when you develop your applications.
 
 ## Implementation
-
-### Mobile demo
-[Philips Hue](https://itunes.apple.com/us/app/philips-hue/id1055281310?mt=8) (by Philips Lighting BV) is a mobile application that lets you easily control your lights from any device and create the right ambience for every moment.
-
-### Web demo
-[Harmony for Philips Hue](http://benknight.github.io/hue-harmony/) is an open sourced web application that sets Philips Hue lights colors based on the color relationships.
 
 ### Live Demo
 We will follow the tutorials [here](https://developers.meethue.com/documentation/getting-started) to show how to get familiar with the programming environments with Hue.
@@ -132,7 +136,7 @@ We would love you for the contribution to **Lab2**, check the ``LICENSE`` file f
 [chor-url]: https://developer.softbankrobotics.com/us-en/downloads/pepper
 [py-image]:https://img.shields.io/badge/Python-2.7-008C96.svg?style=flat
 [py-url]: https://www.python.org/downloads/
-[qi-image]:https://img.shields.io/badge/NAOqi-2.4.3-008C96.svg?style=flat
+[qi-image]:https://img.shields.io/badge/NAOqi-2.5.5-008C96.svg?style=flat
 [qi-url]: https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb/robot/pepper-3
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: ./LICENSE.md
