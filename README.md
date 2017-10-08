@@ -29,7 +29,25 @@ According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi
 
 ### How to install Python?
 
+Before we get started, we need to install Python package on the local machine.
+
 #### Linux & MAC
+
+For Linux users, you can simply run
+
+```bash
+sudo apt-get install python-2.7 python-pip
+```
+
+. Otherwise, you may refer to this [link](https://askubuntu.com/questions/101591/how-do-i-install-the-latest-python-2-7-x-or-3-x-on-ubuntu) to see how to install the latest Python by downloading the install package from the official website.
+
+For Mac users, you can install python by running:
+
+```bash
+brew install python
+```
+
+to install the latest version of Python 2.7.x.
 
 #### Windows
 
