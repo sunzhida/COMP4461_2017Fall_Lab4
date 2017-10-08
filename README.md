@@ -33,6 +33,17 @@ According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi
 
 #### Windows
 
+First, you need to install Python on your personal laptop. Please download the ``.msi`` file from [here](https://www.python.org/downloads/). Then install the package in `C:\Python27`. You may change the path according to your situations.
+After install the Python, please go to:
+`My Computer > Properties > Advanced System Settings > Environment Variables`. Under `System variables`, find `Path` and click the `edit` button, in the popped out window, add your path (e.g., `C:\Python27`) of Python directory in the last line.
+After the installation, you can check the current version of your Python environment by typing
+
+```python
+python --version
+```
+
+in CMD. If the feedback is Python `2.7.XX`, then you can go for the next step.
+
 ### How to install NAOqi SDK?
 
 You need a SoftBank Robotics account to get all the installer that you need. Create your account [here](https://sso.aldebaran-robotics.com/pf/adapter2adapter.ping?TargetResource=https://cloud.aldebaran-robotics.com/). After you create the account, sign in and go to this [page](https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb).
@@ -75,6 +86,12 @@ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}::/usr/local/lib/pynaoqi/lib
 #### Windows
 
 For Windows, please download [Python 2.7 SDK 2.5.5 Win 32 Binaries](https://community.ald.softbankrobotics.com/en/resources/software/pepper-sdks-and-documentation-255).
+
+First,
+ Download Python 2.7 SDK 2.5.5 Win 32 Binaries, and unzip the file into C:\pynaoqi. Then under “System variables”,  add a new User variable:PYTHONPATH and set it to: path\to\python-sdk\lib (e.g., C:\pynaoqi\lib).
+
+
+
 
 First, we need to prepare all the components as mentioned above. Make sure that:
 * The application connects the local network created by the Wi-Fi router.
