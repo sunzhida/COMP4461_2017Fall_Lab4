@@ -38,7 +38,7 @@ After install the Python, please go to:
 `My Computer > Properties > Advanced System Settings > Environment Variables`. Under `System variables`, find `Path` and click the `edit` button, in the popped out window, add your path (e.g., `C:\Python27`) of Python directory in the last line.
 After the installation, you can check the current version of your Python environment by typing
 
-```python
+```
 python --version
 ```
 
