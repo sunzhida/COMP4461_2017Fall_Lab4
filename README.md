@@ -23,7 +23,7 @@ In this lab, we will introduce how to program with [Pepper](https://www.ald.soft
 
 ### What is NAOqi?
 
-According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. Without NAOqi, the robot cannot perform any behaviors. NAOqi can run on the robot under NAOqi OS distribution, and can also run on your computer in order to test the code on a simulated robots.
+According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. Without NAOqi, the robot cannot perform any behaviors. NAOqi can run on the robot under NAOqi OS distribution, and can also run on your computer in order to test the code on a simulated robot.
 
 ## Configuration
 
@@ -33,7 +33,7 @@ Before we get started, we need to install Python package on the local machine.
 
 #### Linux & MAC
 
-For Linux users, you can simply run
+For Linux users, you can directly run
 
 ```bash
 sudo apt-get install python-2.7 python-pip
@@ -51,8 +51,8 @@ to install the latest version of Python 2.7.x.
 
 #### Windows
 
-First, you need to install Python on your personal laptop. Please download the ``.msi`` file from [here](https://www.python.org/downloads/). Then install the package in `C:\Python27`. You may change the path according to your situations.
-After install the Python, please go to
+First, you need to install Python on your laptop. Please download the ``.msi`` file from [here](https://www.python.org/downloads/). Then install the package in `C:\Python27`. You may change the path according to your situations.
+After installing the Python package, please go to
 `My Computer > Properties > Advanced System Settings > Environment Variables`. Under `System variables`, find `Path` and click the `edit` button, in the popped out window, add your path (e.g., `C:\Python27`) of Python directory in the last line.
 After the installation, you can check the current version of your Python environment by typing
 
@@ -60,7 +60,7 @@ After the installation, you can check the current version of your Python environ
 python --version
 ```
 
-in CMD. If the feedback is Python `2.7.XX`, then you can go for the next step.
+in CMD. If the feedback is Python `2.7.XX`, then you can go to the next step.
 
 ### How to install NAOqi SDK?
 
@@ -117,7 +117,7 @@ tts = ALProxy("ALTextToSpeech", "<IP of your robot>", 9559)
 tts.say("Hello, world!")
 ```
 
-If the Pepper speak ``Hello, world!``, then you have set up the development environment successfully. We will announce the IP address during the class. If you forget the IP when you conduct the experiment, please press pepper’s Chest button and it will say it.
+If the Pepper speaks ``Hello, world!``, then you have set up the development environment successfully. We will announce the IP address during the class. If you forget the IP when you experiment, please press pepper’s Chest button, and it will say it.
 
 ## Tips
 
