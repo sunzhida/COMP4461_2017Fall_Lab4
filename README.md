@@ -23,7 +23,7 @@ In this lab, we will introduce how to program with [Pepper](https://www.ald.soft
 
 ### What is NAOqi?
 
-According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. Without NAOqi, the robot cannot perform any behaviors. NAOqi can run on the robot under NAOqi OS distribution, and can also run on your computer in order to test the code on a simulated robot.
+According to the official [website](http://doc.aldebaran.com/2-5/dev/tools/naoqi.html), NAOqi is the main software running on the robot. Without NAOqi, the robot cannot perform any behaviors. NAOqi can run on the robot under NAOqi OS distribution, and can also run on your computer in order to test the code on a simulated robot. [Here](http://doc.aldebaran.com/2-5/dev/programming_index.html) is an overview of all the SDKs.
 
 ## Configuration
 
