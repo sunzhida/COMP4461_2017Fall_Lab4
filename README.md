@@ -119,11 +119,17 @@ tts.say("Hello, world!")
 
 If the Pepper speaks ``Hello, world!``, then you have set up the development environment successfully. We will announce the IP address during the class. If you forget the IP when you experiment, please press pepper’s Chest button, and it will say it.
 
-There is a demo code provided in this repository for you to get aware how to call NAOqi APIs in python. There are also plenty of demos offered on the official documentation website.
+There is a demo code provided in this repository for you to get aware how to call NAOqi APIs in python. This demo aims at detect human faces and tell their genders and expressions from what have been detected. After changing the IP address of the robot, you can run this code by simply typing
+
+```bash
+python expression_teller.py
+```
+
+in python environment. There are also plenty of demos offered on the official documentation website.
 
 ## Tips
 
-- [SoftBank Robotics Documentation](http://doc.aldebaran.com/)
+- Note that you have to find the right version of the documentation with your development environment.[SoftBank Robotics Documentation](http://doc.aldebaran.com/)
 - [Configure & setting](http://doc.aldebaran.com/2-5/nao/webpage.html)
 - Get started with [NAOqi](http://doc.aldebaran.com/2-5/dev/community_software.html#retrieving-software)
 
