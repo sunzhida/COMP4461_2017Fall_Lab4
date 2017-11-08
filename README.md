@@ -129,7 +129,7 @@ in python environment. There are also plenty of demos offered on the official do
 
 ## Tips
 
-- Note that you have to find the right version of the documentation with your development environment.[SoftBank Robotics Documentation](http://doc.aldebaran.com/)
+- Note that you have to find the right version of the [SoftBank Robotics Documentation](http://doc.aldebaran.com/) with your local NAOqi development environment.
 - [Configure & setting](http://doc.aldebaran.com/2-5/nao/webpage.html)
 - Get started with [NAOqi](http://doc.aldebaran.com/2-5/dev/community_software.html#retrieving-software)
 
