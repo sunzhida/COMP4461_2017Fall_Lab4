@@ -119,7 +119,7 @@ tts.say("Hello, world!")
 
 If the Pepper speaks ``Hello, world!``, then you have set up the development environment successfully. We will announce the IP address during the class. If you forget the IP when you experiment, please press pepper’s Chest button, and it will say it.
 
-There is a demo code provided in this repository for you to get aware how to call NAOqi APIs in python. This demo aims at detect human faces and tell their genders and expressions from what have been detected. After changing the IP address of the robot, you can run this code by simply typing
+There is a demo code provided in this repository for you to get aware how to call NAOqi APIs in python. This demo aims to detect human faces and tell their genders and expressions from what has been detected. After changing the IP address of the robot, you can run this code by simply typing
 
 ```bash
 python expression_teller.py
