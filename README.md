@@ -119,6 +119,8 @@ tts.say("Hello, world!")
 
 If the Pepper speaks ``Hello, world!``, then you have set up the development environment successfully. We will announce the IP address during the class. If you forget the IP when you experiment, please press pepper’s Chest button, and it will say it.
 
+There is a demo code provided in this repository for you to get aware how to call NAOqi APIs in python. There are also plenty of demos offered on the official documentation website.
+
 ## Tips
 
 - [SoftBank Robotics Documentation](http://doc.aldebaran.com/)
