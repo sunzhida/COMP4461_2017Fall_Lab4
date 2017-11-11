@@ -45,9 +45,9 @@ class HumanTrackedEventWatcher(ALModule):
             expression_index = max(enumerate(expression_human), key = lambda x:x[1])[0]
             expression_str = ["neutral", "happy", "surprised", "angry", "sad"]
             if gender_human[0] == 1:
-                tts.say("He looks like quite " + expression_str[expression_index])
+                tts.say("He looks quite " + expression_str[expression_index])
             else:
-                tts.say("She looks like quite " + expression_str[expression_index])
+                tts.say("She looks quite " + expression_str[expression_index])
 
     def onPeopleLeft(self, key, value, msg):
         """ callback for event PeopleLeft """
